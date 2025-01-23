@@ -40,11 +40,11 @@ matrix.print_matrix();        // Full 100x100 matrix display
 matrix.print_matrix_nonzero();// Only non-zero elements
 ```
 ## Key Methods
-`set_value(int data, int row, int col)`: Set element at (row,col)
-`get_value(int row, int col)`:	Get element value (0 if not set)
-`print_matrix()`:	Print full matrix with zeros
-`print_matrix_nonzero()`:	Print only stored values
-`add(SparseMatrix& other)`:	Matrix addition
+- `set_value(int data, int row, int col)`: Set element at (row,col)
+- `get_value(int row, int col)`:	Get element value (0 if not set)
+- `print_matrix()`:	Print full matrix with zeros
+- `print_matrix_nonzero()`:	Print only stored values
+- `add(SparseMatrix& other)`:	Matrix addition
 
 ## Example
 input:
